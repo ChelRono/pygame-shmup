@@ -230,6 +230,9 @@ def show_go_screen():
               WIDTH / 2, HEIGHT / 2)
     draw_text(screen, "Press a key to begin", 18, WIDTH / 2, HEIGHT * 3 / 4)
     pygame.display.flip()
+    
+    
+    
     waiting = True
     while waiting:
         clock.tick(FPS)
